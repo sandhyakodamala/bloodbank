@@ -15,6 +15,7 @@ if(isset($_POST['but_logout'])){
 <!doctype html>
 <html>
     <head></head>
+    <title>This is new one</title>
     <body>
             <form method='post' action="">
             <input type="submit" value="Logout" name="but_logout">
@@ -44,7 +45,6 @@ $result = $conn->query($sql);
 
 <html lang="en">
   <head>
-      <title>New PHP Page </title>
  <style>
 table, th, td {
   border: 1px solid black;
