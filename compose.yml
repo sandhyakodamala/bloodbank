@@ -1,6 +1,6 @@
 ---
 services:
-  database:
+  mysqldb:
     image: sandhyakodamala/phpapp:db_img
     container_name: mydatabase
     ports:
@@ -16,7 +16,7 @@ services:
     networks:
       - mynetwork
     depends_on:
-      - database
+      - mysqldb
 
 networks:
   mynetwork: 
